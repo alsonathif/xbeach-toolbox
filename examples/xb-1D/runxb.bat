@@ -1,0 +1,1 @@
+mpiexec -np 16 -localonly "C:\Users\Rendering\Downloads\xbeach_5848_x64_mpi_netcdf\xbeach.exe"

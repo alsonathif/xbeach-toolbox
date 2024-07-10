@@ -1,0 +1,343 @@
+  **********************************************************
+                     Welcome to XBeach
+ 
+              version 1.22.4867 Kingsday release
+              date 20-10-2015 10:45:21
+    URL: http://svn.oss.deltares.nl/repos/xbeach/trunk/
+  **********************************************************
+ 
+  Simulation started: YYYYMMDD    hh:mm:ss     time zone (UTC)
+                      20240420  02:05:03     +0500
+ 
+  General Input Module
+  Reading input parameters:
+  --------------------------------
+  Physical processes:
+  XBeach reading from params.txt
+                  cyclic  = 0 (no record found, default value used)
+                   swave  = 1 (no record found, default value used)
+              single_dir  = 0 (no record found, default value used)
+                   lwave  = 1 (no record found, default value used)
+                    flow  = 1 (no record found, default value used)
+                sedtrans  = 0
+              morphology  = 0
+             avalanching  = 0 (no record found, default value used)
+                    nonh  = 0 (no record found, default value used)
+                  gwflow  = 0 (no record found, default value used)
+                   ships  = 0 (no record found, default value used)
+              vegetation  = 0 (no record found, default value used)
+                setbathy  = 0 (no record found, default value used)
+  --------------------------------
+  Grid parameters:
+                gridform  = xbeach (no record found, default value used)
+                    xori  = .0000
+                    yori  = .0000
+                    alfa  = .0000
+                      nx  = 99
+                      ny  = 0
+                  posdwn  = -1.0000
+                 depfile  = bed.dep
+                   vardx  = 1
+                      dx  = -1.0000 (no record found, default value used)
+                      dy  = -1.0000 (no record found, default value used)
+                   xfile  = x.grd
+                   yfile  = None specified
+                thetamin  = -90.0000
+                thetamax  = 90.0000
+               thetanaut  = 0
+                  dtheta  = 10.0000
+  --------------------------------
+  Model time parameters:
+                     CFL  = .3000
+                   tstop  = 3600.0000
+  --------------------------------
+  Physical constants:
+                     rho  = 1025.0000 (no record found, default value used)
+                       g  = 9.8100 (no record found, default value used)
+              depthscale  = 1.0000 (no record found, default value used)
+  --------------------------------
+  Initial conditions:
+              zsinitfile  = None specified
+  --------------------------------
+  Wave boundary condition parameters:
+                  instat  = jons
+                  bcfile  = jonswap.txt
+                   taper  = 100.0000 (no record found, default value used)
+                    nmax  = .8000 (no record found, default value used)
+             lateralwave  = neumann (no record found, default value used)
+  --------------------------------
+  Wave-spectrum boundary condition parameters:
+            nonhspectrum  = 0 (no record found, default value used)
+                  random  = 1 (no record found, default value used)
+                 fcutoff  = .0000 (no record found, default value used)
+                 trepfac  = .0100 (no record found, default value used)
+                 sprdthr  = .0800 (no record found, default value used)
+              Tm01switch  = 0 (no record found, default value used)
+                      rt  = 3600.0000 (no record found, default value used)
+                    dtbc  = 1.0000 (no record found, default value used)
+            nspectrumloc  = 1 (no record found, default value used)
+  --------------------------------
+  Flow boundary condition parameters:
+                   front  = nonh_1d
+                    left  = neumann (no record found, default value used)
+                   right  = neumann (no record found, default value used)
+                    back  = wall
+                     ARC  = 1 (no record found, default value used)
+                   order  = 2.0000 (no record found, default value used)
+                 carspan  = 0 (no record found, default value used)
+                freewave  = 0 (no record found, default value used)
+                    epsi  = -1.0000 (no record found, default value used)
+                tidetype  = velocity (no record found, default value used)
+  --------------------------------
+  Tide boundary conditions:
+                 tideloc  = 0 (no record found, default value used)
+                     zs0  = .0000
+  --------------------------------
+  Discharge boundary conditions:
+          disch_loc_file  = None specified
+   disch_timeseries_file  = None specified
+              ndischarge  = 0 (no record found, default value used)
+             ntdischarge  = 0 (no record found, default value used)
+                    beta  = .1000 (no record found, default value used)
+  --------------------------------
+  Wave breaking parameters:
+                   break  = roelvink2 (no record found, default value used)
+                   gamma  = .5500 (no record found, default value used)
+                   alpha  = 1.0000 (no record found, default value used)
+                       n  = 10.0000 (no record found, default value used)
+                  gammax  = 2.0000 (no record found, default value used)
+                   delta  = .0000 (no record found, default value used)
+                      fw  = .0000 (no record found, default value used)
+                fwcutoff  = 1000.0000 (no record found, default value used)
+            breakerdelay  = 1 (no record found, default value used)
+  --------------------------------
+  Roller parameters:
+                  roller  = 1 (no record found, default value used)
+                     rfb  = 0 (no record found, default value used)
+  --------------------------------
+  Wave-current interaction parameters:
+                     wci  = 0 (no record found, default value used)
+                    hwci  = .1000 (no record found, default value used)
+                    cats  = 4.0000 (no record found, default value used)
+  --------------------------------
+  Flow parameters:
+             bedfriction  = chezy (no record found, default value used)
+             bedfriccoef  = 55.0000 (no record found, default value used)
+                     nuh  = .1000 (no record found, default value used)
+                  nuhfac  = 1.0000 (no record found, default value used)
+                    smag  = 1 (no record found, default value used)
+  --------------------------------
+  Coriolis force parameters:
+                  wearth  = .0417 (no record found, default value used)
+                     lat  = .0000 (no record found, default value used)
+  --------------------------------
+  Wind parameters:
+                    rhoa  = 1.2500 (no record found, default value used)
+                      Cd  = .0020 (no record found, default value used)
+                windfile  = None specified
+                   windv  = .0000 (no record found, default value used)
+                  windth  = 270.0000 (no record found, default value used)
+  --------------------------------
+  Bed composition parameters:
+                     ngd  = 1 (no record found, default value used)
+                      nd  = 3 (no record found, default value used)
+                     por  = .4000 (no record found, default value used)
+  D50  = .0002 (no record found, default value used)
+  D90  = .0003 (no record found, default value used)
+  --------------------------------
+  Output variables:
+                 timings  = 1 (no record found, default value used)
+                  tunits  = None specified
+                  tstart  = .0000 (no record found, default value used)
+                    tint  = 1.0000 (no record found, default value used)
+                tsglobal  = None specified
+                   tintg  = 1.0000
+                tspoints  = None specified
+                   tintp  = 1.0000
+                  tsmean  = None specified
+                   tintm  = 3600.0000 (no record found, default value used)
+              nglobalvar  = 2
+  nglobalvar: Will generate global output for variable:zb
+  nglobalvar: Will generate global output for variable:zs
+                 npoints  = 0 (no record found, default value used)
+                nrugauge  = 0 (no record found, default value used)
+               npointvar  = 0 (no record found, default value used)
+               nrugdepth  = 1 (no record found, default value used)
+  rugdepth  = .0000 (no record found, default value used)
+                nmeanvar  = 1
+  nmeanvar: Will generate mean, min, max and variance output for variable:zb
+            outputformat  = netcdf (no record found, default value used)
+         outputprecision  = double (no record found, default value used)
+              ncfilename  = None specified
+  netcdf output to:xboutput.nc
+  --------------------------------
+  Output projection:
+              projection  = None specified
+                  rotate  = 1 (no record found, default value used)
+  --------------------------------
+  Wave numerics parameters:
+                  scheme  = upwind_2 (no record found, default value used)
+                  snells  = 0 (no record found, default value used)
+  --------------------------------
+  Flow numerics parameters:
+                     eps  = .0050 (no record found, default value used)
+                  eps_sd  = .5000 (no record found, default value used)
+                    umin  = .0000 (no record found, default value used)
+                    hmin  = .2000 (no record found, default value used)
+                secorder  = 0 (no record found, default value used)
+  --------------------------------
+  Finished reading input parameters
+  --------------------------------
+  Unknown, unused or multiple statements of parameter WAVEMODEL in params.txt
+  Unknown, unused or multiple statements of parameter WBCTYPE in params.txt
+  Unknown, unused or multiple statements of parameter DTHETA_S in params.txt
+  ------------------------------------
+  Building Grid and Bathymetry
+  ------------------------------------
+  Initializing .....
+  --------------------------------
+  Initializing spectral wave boundary conditions
+  --------------------------------
+  NetCDF outputformat
+  Creating netcdf variable: zb
+  Creating netcdf variable: zs
+  Creating netcdf variable: zb_mean
+  Creating netcdf variable: zb_var
+  Creating netcdf variable: zb_min
+  Creating netcdf variable: zb_max
+  Writing file definition.
+  Setting up boundary conditions
+  --------------------------------
+  Calculating spectral wave boundary conditions
+  --------------------------------
+ Reading spectrum at location 1
+  waveparams: Reading from jonswap.txt ...
+  XBeach reading from jonswap.txt
+                  nmodal  = 1 (no record found, default value used)
+                     Hm0  = 1.5000
+                      Tp  = 5.0000
+                gammajsp  = 3.3000
+                       s  = 10000.0000 Warning: value > recommended value of 100
+ 0.0000
+                 mainang  = 270.0000
+                    fnyq  = 1.0000
+                     dfj  = .0050 (no record found, default value used)
+ Interpreting spectrum at location 1
+  Values calculated from interpolated spectrum:
+ Hm0       = 1.50 m
+ Trep      = 4.57 s
+ Mean dir  = 270.28 degN
+ Overall Trep from all spectra calculated: 4.57 s
+  Calculating Fourier components
+ 5.1% done
+ 10.1% done
+ 15.1% done
+ 20.1% done
+ 25.1% done
+ 30.1% done
+ 35.0% done
+ 40.0% done
+ 45.0% done
+ 50.0% done
+ 55.1% done
+ 60.1% done
+ 65.1% done
+ 70.1% done
+ 75.1% done
+ 80.1% done
+ 85.0% done
+ 90.0% done
+ 95.0% done
+ 100.0% done
+ Wave energy outside computational domain at offshore boundary: .0%
+ Calculating short wave time series for theta bin 1 of 18
+ Calculating short wave time series for theta bin 2 of 18
+ Calculating short wave time series for theta bin 3 of 18
+ Calculating short wave time series for theta bin 4 of 18
+ Calculating short wave time series for theta bin 5 of 18
+ Calculating short wave time series for theta bin 6 of 18
+ Calculating short wave time series for theta bin 7 of 18
+ Calculating short wave time series for theta bin 8 of 18
+ Calculating short wave time series for theta bin 9 of 18
+ Calculating short wave time series for theta bin 10 of 18
+ Calculating short wave time series for theta bin 11 of 18
+ Calculating short wave time series for theta bin 12 of 18
+ Calculating short wave time series for theta bin 13 of 18
+ Calculating short wave time series for theta bin 14 of 18
+ Calculating short wave time series for theta bin 15 of 18
+ Calculating short wave time series for theta bin 16 of 18
+ Calculating short wave time series for theta bin 17 of 18
+ Calculating short wave time series for theta bin 18 of 18
+ Y-point 1 of 1 done.
+ Wave bin 1 contains .00% of total energy
+ Wave bin 2 contains .00% of total energy
+ Wave bin 3 contains .00% of total energy
+ Wave bin 4 contains .00% of total energy
+ Wave bin 5 contains .00% of total energy
+ Wave bin 6 contains .00% of total energy
+ Wave bin 7 contains .00% of total energy
+ Wave bin 8 contains .00% of total energy
+ Wave bin 9 contains .00% of total energy
+ Wave bin 10 contains 100.00% of total energy
+ Wave bin 11 contains .00% of total energy
+ Wave bin 12 contains .00% of total energy
+ Wave bin 13 contains .00% of total energy
+ Wave bin 14 contains .00% of total energy
+ Wave bin 15 contains .00% of total energy
+ Wave bin 16 contains .00% of total energy
+ Wave bin 17 contains .00% of total energy
+ Wave bin 18 contains .00% of total energy
+  Writing wave energy to E_reuse.bcf ...
+  file done
+  Calculating primary wave interaction
+ 5.2% done
+ 10.1% done
+ 15.1% done
+ 20.1% done
+ 25.1% done
+ 30.1% done
+ 35.1% done
+ 40.1% done
+ 45.1% done
+ 50.1% done
+ 55.1% done
+ 60.1% done
+ 65.1% done
+ 70.0% done
+ 75.0% done
+ 80.0% done
+ 85.0% done
+ 90.0% done
+ 95.0% done
+ 100.0% done
+  Calculating flux at boundary
+ Flux 1 of 1
+  Writing long wave mass flux to q_reuse.bcf ...
+  file done
+  --------------------------------
+  Spectral wave boundary conditions complete
+  --------------------------------
+  Boundary conditions complete, starting computation
+ Simulation   3.9 percent complete. Average dt   0.060 seconds
+ Time remaining   2 minutes and   4 seconds
+ Simulation  15.1 percent complete. Average dt   0.054 seconds
+ Time remaining  47 seconds
+ Simulation  26.9 percent complete. Average dt   0.055 seconds
+ Time remaining  36 seconds
+ Simulation  38.2 percent complete. Average dt   0.055 seconds
+ Time remaining  30 seconds
+ Simulation  50.1 percent complete. Average dt   0.056 seconds
+ Time remaining  23 seconds
+ Simulation  61.6 percent complete. Average dt   0.055 seconds
+ Time remaining  18 seconds
+ Simulation  73.5 percent complete. Average dt   0.055 seconds
+ Time remaining  12 seconds
+ Simulation  85.2 percent complete. Average dt   0.056 seconds
+ Time remaining   7 seconds
+ Simulation  97.0 percent complete. Average dt   0.056 seconds
+ Time remaining   1 seconds
+  Duration   :    33.1406250000000      seconds
+  Timesteps  :        64750
+  Average dt :   5.559845559845560E-002 seconds
+  Unit speed :   5.118243243243243E-006 seconds/1
+  End of program xbeach
